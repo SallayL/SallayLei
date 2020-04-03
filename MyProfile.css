@@ -1,12 +1,16 @@
-* {
-  font-family: 'Raleway', sans-serif;
-}
+
 
 /* Add a black background color to the top navigation */
 .topnav {
+  font-family: 'nunito', sans-serif;
   background-color: white;
-  text-align: center;
+  float: center;
   overflow: hidden;
+}
+
+a.name{
+  text-decoration: underline;
+  border-right: solid 1330px white;
 }
 
 /* Style the links inside the navigation bar */
@@ -14,7 +18,7 @@
   float: left;
   color: black;
   text-align: center;
-  padding: 20px 16px;
+  padding: 18px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -24,7 +28,10 @@
   color: tan;
 }
 
-
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
 
 header {
 	/* Layout declrations */
@@ -48,29 +55,32 @@ h1.greeting {
 	font-size: 80px;
 	letter-spacing: 20px;
 	text-shadow: 0px 0px 8px #423f4f;
-	
+}
+
+h1.greeting:hover {
+  color: white;
 }
 
 h2.quote{
   color: white;
   text-align: center;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "ink free", "Helvetica Neue", sans-serif;
   font-size: 25px;
 }
 
-h1.Intro {
-  /* Layout declarations */
-  text-align: center;
-  /* Appearance declarations */
+h2.quote:hover {
   color: black;
-	font-family: "Open Sans", "Helvetica Neue", sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 50px;
-	
-	
 }
 
-p#intro{
+h1.projects {
+  /* Layout declarations */
   text-align: center;
+  border-top: solid 50px white;
+  /* Appearance declarations */
+  color: gray;
+	font-family:  "open sans", sans-serif;
+  text-decoration: underline;
+	
+	font-size: 20px;	
 }
+
