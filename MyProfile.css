@@ -2,21 +2,46 @@
   font-family: 'Raleway', sans-serif;
 }
 
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: tan;
+}
+
+
+
 header {
 	/* Layout declrations */
-	padding: 200px 0;
+	padding: 220px 0;
 	/* Appearance declrations */
-	background-image: url('https://images.pexels.com/photos/3773413/pexels-photo-3773413.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+	background-image: url('https://images.pexels.com/photos/1144176/pexels-photo-1144176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 	background-repeat: no-repeat;
 	background-size: cover;
-	border-top: solid 2px #423f4f;
+	border-left: solid 10px white;
+  border-right: solid 10px white;
 }
 
 h1.greeting {
   /* Layout declarations */
   text-align: center;
   /* Appearance declarations */
-  color: white;
+  color: black;
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
 	font-style: normal;
 	font-weight: bold;
@@ -24,6 +49,13 @@ h1.greeting {
 	letter-spacing: 20px;
 	text-shadow: 0px 0px 8px #423f4f;
 	
+}
+
+h2.quote{
+  color: white;
+  text-align: center;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
 }
 
 h1.Intro {
@@ -37,4 +69,8 @@ h1.Intro {
 	font-size: 50px;
 	
 	
+}
+
+p#intro{
+  text-align: center;
 }
