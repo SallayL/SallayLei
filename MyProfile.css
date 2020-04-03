@@ -8,10 +8,16 @@
   overflow: hidden;
 }
 
-a.name{
-  text-decoration: underline;
-  border-right: solid 1330px white;
+.topnav a.name{
+  font-family: 'comic sans', cursive;
+  font-weight: bold;
 }
+
+.topnav-right {
+  float: right;
+   border-right: solid 10px white;
+}
+/*
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -19,7 +25,6 @@ a.name{
   color: black;
   text-align: center;
   padding: 18px 16px;
-  text-decoration: none;
   font-size: 17px;
 }
 
