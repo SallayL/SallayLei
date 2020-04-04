@@ -1,204 +1,68 @@
 
+<div class="topnav">
+ <a class="name">Sallay Lei</a>
+  <div class="topnav-right">
+    <a class="active" href="#home">Home</a>
+  <a href="https://drive.google.com/file/d/1TLW1D99OyLuv4C-kmyBVIKOlHqeniNOO/view?usp=sharing">Resume</a>
+  <a href="https://csusacmflyers.blogspot.com/">Flyer Designs</a>
+  <a href="https://csus.acm.org/">ACM Website</a>
+  </div>
+</div>
 
-/* Add a black background color to the top navigation */
-.topnav {
-  font-family: 'nunito', sans-serif;
-  background-color: white;
-  float: center;
-  overflow: hidden;
-}
+<!-- This is where your header code begins -->
+<header>
+  <h1 class="greeting">Hello! World </h1>
+  <h2 class="quote">"Life is either a daring adventure or nothing at all."</h2>
+</header>
+<!-- This is where your header code ends -->
 
-.topnav a.name{
-  font-family: 'comic sans', cursive;
-  font-weight: bold;
-}
+<div>
+  <h1 class="skills">◘ Language Skills ◘</h1> 
+  <p class="lang">Java, C, HTML, CSS, JavaScript, Python<br>English, Mandarin, Cantonese</p>
+</div>
 
-.topnav-right {
-  float: right;
-   border-right: solid 10px white;
-}
-/*
+<div> 
+  <h1 class ="projects">◘ Projects ◘</h1>
+  <div class="Row-p">
+    <div class="Column-p">
+  <p class="TTT0">Tic Tac Toe - Version 0</p>
+  <a href="https://github.com/SallayL/TicTacToe_V0" target="_blank" title="click for Github code"><img alt="TTT0"  class="img-thumbnail project-images" src="https://drive.google.com/thumbnail?id=1BJylTX-zTCCllg4ZpniYv5LgZFUSiBSC"></a>   
+      </div>   
+  <div class="Column-p">
+  <p class="TTT1">Tic Tac Toe - Version 1</p>
+    <a href="https://github.com/SallayL/TicTacToe_V1" target="_blank" title="click for Github code"><img alt="TTT1"  class="img-thumbnail project-images" src="https://drive.google.com/thumbnail?id=1Q2vB9daCssno_Hg3LF-APqpR1w036x1H"></a> 
+  </div>
+    </div>
+</div>
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 18px 16px;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  color: tan;
-}
-
-.topnav a.active {
-  background-color: black;
-  color: white;
-}
-
-header {
-	/* Layout declrations */
-	padding: 220px 0;
-	/* Appearance declrations */
-	background-image: url('https://images.pexels.com/photos/1144176/pexels-photo-1144176.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-	background-repeat: no-repeat;
-	background-size: cover;
-	border-left: solid 10px white;
-  border-right: solid 10px white;
-}
-
-@keyframes slideinOnce {
-  from {
-    margin-top: 100%;
-    width: 200%; 
-  }
-
-  to {
-    margin-top: 0%;
-    width: 100%;
-  }
-}
-
-h1.greeting {
-  /* Layout declarations */
-  text-align: center;
-  /* Appearance declarations */
-  color: black;
-	font-family: "Open Sans", "Helvetica Neue", sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 80px;
-	letter-spacing: 20px;
-	text-shadow: 0px 0px 8px #423f4f;
-  animation-name: slideinOnce;
-  animation-duration: 3s;
-}
-
-h1.greeting:hover {
-  color: white;
-}
-
-h2.quote{
-  color: white;
-  text-align: center;
-  font-family: "ink free", "Helvetica Neue", sans-serif;
-  font-size: 25px;
-}
-
-h2.quote:hover {
-  color: black;
-}
-
-h1.skills {
-  /* Layout declarations */
-  text-align: center;
-  border-top: solid 50px white;
-  /* Appearance declarations */
-  color: black;
-	font-family:  "open sans", sans-serif;
-	font-size: 24px;	
-}
-
-@keyframes slidein {
-  from {
-    margin-right: 5%;
-    width: 90%; 
-  }
-
-  to {
-    margin-right: 0%;
-    width: 110%;
-  }
-}
-
-.lang{
-  text-align:center;
-  font-family:  "nunito", sans-serif;
-  color: steelblue;
-  border-bottom: solid 10px white;
-  border-top: solid 10px white;
-  font-size: 22px;	
-  animation-name: slidein;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-    
-}
-
-h1.projects{
-  text-align: center;
-  border-top: solid 30px white;
-  /* Appearance declarations */
-  color: black;
-	font-family:  "open sans", sans-serif;
-	font-size: 24px;
-}
-
-.Row-p {
-  display: flex;
-  text-align:center;
-}
-
-.Column-p {
-  flex: 20%;
-}
-
-.TTT0{
-  color: darkolivegreen;
-  font-family: 'arial',sans-serif;
-}
-
-.TTT1{
-  color: darkolivegreen;
-  font-family: 'arial',sans-serif;
-}
-
-
-.text-primary{
-  color: grey;
-  text-align: center;
-  font-family: 'ink free', sans-serif;
-    background-color: aliceblue;
-  border-top: solid 100px white;
-}
-
-.text-primary:hover{
-  color: darkseagreen;
-}
-.contact-form{
-  padding: 18px 16px;
-  font-family: 'nunito', sans-serif;
-  background-color: aliceblue;
-  text-align: center;
-  border-bottom: solid 20px white;
-  border-left: solid 60px white;
-  border-right: solid 60px white;
-}
-
-#email {
-  color: darkseagreen;
-}
-
-.btn {
-background: darkseagreen;
-color: white;
-border: 2px solid #eee;
-border-radius: 30px;
-box-shadow: 5px 5px 5px #eee;
-text-shadow:none;
-width: 75px;
-height: 35px;
-   
-}
-
-.btn:hover {
-background: cadetblue;
-color: black;
-border: 1px solid #eee;
-border-radius: 20px;
-box-shadow: 5px 5px 5px #eee;
-text-shadow:none;
-
-}
+</section><!--section Contact starts -->
+	<div class="container-fluid">
+		<section id="contact">
+			<h2 class="text-primary section-contact">Contact</h2>
+			<div class="contact-form">
+				<div class="row">
+					<div class="col-sm-8">
+						<p class="contact-text">please feel free to leave me a message at  <span id="email">lei20188@gmail.com</span><br>
+						<br></p>
+					</div>
+					<div class="col-sm-20 contact">
+						<form action="mailto:lei20188@gmail.com" method="post" enctype="text/plain">
+							<div class="form-group">
+								<label for="Name">Name:</label> <input class="form-control" id="name" type="name">
+							</div> <br>
+							<div class="form-group">
+								<label for="email">Email:</label> <input class="form-control" id="email" type="email">
+							</div><br>
+							<div class="form-group">
+								<label for="message">Message:</label> 
+								<textarea class="form-control" cols="28" id="message" rows="8"></textarea>
+							</div><br>
+							<div class="form-group">
+								<button class="btn " type="submit">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div><!--section Contact ends -->
