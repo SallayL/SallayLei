@@ -121,7 +121,7 @@ h1.skills {
   border-top: solid 10px white;
   font-size: 22px;	
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
     
@@ -136,12 +136,22 @@ h1.projects{
 	font-size: 24px;
 }
 
+.T0{
+  text-align: center;
+  border-top:solid 10px white;
+}
+
+.T1{
+  text-align: center;
+  border-top:solid 30px white;
+}
+
 .text-primary{
   color: grey;
   text-align: center;
   font-family: 'ink free', sans-serif;
     background-color: aliceblue;
-  border-top: solid 350px white;
+  border-top: solid 100px white;
 }
 
 .text-primary:hover{
