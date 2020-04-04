@@ -136,14 +136,23 @@ h1.projects{
 	font-size: 24px;
 }
 
-.T0{
-  text-align: center;
-  border-top:solid 10px white;
+.row {
+  display: flex;
+  text-align:center;
 }
 
-.T1{
-  text-align: center;
-  border-top:solid 30px white;
+.column {
+  flex: 20%;
+}
+
+.TTT0{
+  color: darkolivegreen;
+  font-family: 'arial',sans-serif;
+}
+
+.TTT1{
+  color: darkolivegreen;
+  font-family: 'arial',sans-serif;
 }
 
 .text-primary{
