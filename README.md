@@ -1,2 +1,2 @@
 # SallayLei
-My personal website to display my prjects, flyer designs, and resume. 
+A personal website to display my prOjects, flyer designs, and resume. 
